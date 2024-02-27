@@ -1,0 +1,16 @@
+[package]
+name = "sdomainf"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "*", features = ["blocking"] }
+regex = "1.10.3"
+tokio = "1.36"
+
+[profile.release]
+opt-level = "z"  # Nivel de optimización: "z" para tamaño y velocidad
+lto = true       # Activar Link-Time Optimization
+codegen-units = 1 # Número de unidades de código a generar
