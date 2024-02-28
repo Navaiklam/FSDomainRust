@@ -22,7 +22,7 @@ El script emplea múltiples hilos para llevar a cabo las consultas HTTP de maner
 
 ¡Explora y descubre los subdominios de manera rápida y efectiva con este script en Rust! 🚀
 
-## Recuerda que lo puedes compilar de esta forma:
+### Recuerda que lo puedes compilar de esta forma:
 ```bash
 cargo build
 ```
