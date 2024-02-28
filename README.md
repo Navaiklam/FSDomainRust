@@ -7,11 +7,11 @@
 Para utilizar el script, sigue las siguientes instrucciones:
 
 - Para buscar subdominios utilizando Google Tag Manager:
-cargo run dominio gtm
+#cargo run dominio gtm
 
 
 - Para realizar una búsqueda de fuerza bruta con un diccionario:
-cargo run dominio dic archivo.txt
+#cargo run dominio dic archivo.txt
 
 
 ### Detalles del Funcionamiento
@@ -19,3 +19,24 @@ cargo run dominio dic archivo.txt
 El script emplea múltiples hilos para llevar a cabo las consultas HTTP de manera eficiente. Proporciona el código de respuesta de cada subdominio encontrado, ya sea a través de Google Tag Manager o mediante la búsqueda con diccionario. Esta herramienta es útil para descubrir subdominios asociados a un dominio principal de forma automatizada y estructurada.
 
 ¡Explora y descubre los subdominios de manera rápida y efectiva con este script en Rust! 🚀
+
+
+## Find SubDomain in Rust
+
+🔍 This Rust script allows you to search for subdomains in two ways: through Google Tag Manager or using a traditional dictionary search. It utilizes multiple threads to perform HTTP queries and display the response code.
+
+### Script Usage
+
+To use the script, follow these instructions:
+
+- To search for subdomains using Google Tag Manager:
+#cargo run domain gtm
+
+- For brute force dictionary search:
+cargo run domain dic dictionary.txt
+
+### Operation Details
+
+The script leverages multiple threads to efficiently conduct HTTP queries. It provides the response code for each discovered subdomain, whether through Google Tag Manager or dictionary search. This tool is valuable for automated and structured exploration of subdomains associated with a primary domain.
+
+Explore and discover subdomains quickly and effectively with this Rust script! 🚀
