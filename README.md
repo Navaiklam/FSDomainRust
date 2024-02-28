@@ -7,8 +7,9 @@
 Para utilizar el script, sigue las siguientes instrucciones:
 
 - Para buscar subdominios utilizando Google Tag Manager:
-#cargo run dominio gtm
-
+```bash
+cargo run dominio gtm
+```
 
 - Para realizar una búsqueda de fuerza bruta con un diccionario:
 ```bash
@@ -21,6 +22,11 @@ El script emplea múltiples hilos para llevar a cabo las consultas HTTP de maner
 
 ¡Explora y descubre los subdominios de manera rápida y efectiva con este script en Rust! 🚀
 
+## Recuerda que lo puedes compilar de esta forma:
+```bash
+cargo build
+```
+- En cargo.toml ya se encuentran las dependencias para un compilado optimizado.
 
 ## Find SubDomain in Rust
 
@@ -31,10 +37,14 @@ El script emplea múltiples hilos para llevar a cabo las consultas HTTP de maner
 To use the script, follow these instructions:
 
 - To search for subdomains using Google Tag Manager:
-#cargo run domain gtm
+```bash
+cargo run domain gtm
+```
 
 - For brute force dictionary search:
+```bash
 cargo run domain dic dictionary.txt
+```
 
 ### Operation Details
 
