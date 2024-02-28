@@ -11,8 +11,9 @@ Para utilizar el script, sigue las siguientes instrucciones:
 
 
 - Para realizar una búsqueda de fuerza bruta con un diccionario:
-#cargo run dominio dic archivo.txt
-
+```bash
+cargo run dominio dic archivo.txt
+```
 
 ### Detalles del Funcionamiento
 
