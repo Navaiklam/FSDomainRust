@@ -29,7 +29,7 @@ cargo build
 - En cargo.toml ya se encuentran las dependencias para un compilado optimizado.
 
 
- 
+***
 ## Find SubDomain in Rust
 
 🔍 This Rust script allows you to search for subdomains in two ways: through Google Tag Manager or using a traditional dictionary search. It utilizes multiple threads to perform HTTP queries and display the response code.
